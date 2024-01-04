@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.20)
-project(REMS)
+project(RSEMS)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(REMS src/main.cpp)
+add_executable(RSEMS src/main.cpp src/Agent.h src/Data.h src/Property.h)
